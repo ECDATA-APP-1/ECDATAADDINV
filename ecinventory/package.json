@@ -10,13 +10,19 @@
   },
   "dependencies": {
     "expo": "~48.0.18",
+    "expo-barcode-scanner": "~12.3.2",
     "expo-status-bar": "~1.4.4",
+    "mysql": "^2.18.1",
+    "qrcode": "^1.5.3",
     "react": "18.2.0",
     "react-native": "0.71.8"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
+    "@types/mysql": "^2.15.21",
+    "@types/qrcode": "^1.5.0",
     "@types/react": "~18.0.14",
+    "@types/react-native": "^0.72.2",
     "typescript": "^4.9.4"
   },
   "private": true

@@ -31,8 +31,35 @@ export const styles = StyleSheet.create({
   itemName: {
     fontWeight: 'bold',
   },
+  itemText: {
+    fontStyle: 'italic',
+    color: 'gray',
+  },
   itemQuantity: {
     fontStyle: 'italic',
     color: 'gray',
+  },
+  itemQRCode: {
+    color: 'blue',
+    marginTop: 5,
+  },
+ header: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 20,
+  },
+  
+  button: {
+    backgroundColor: 'blue',
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderRadius: 5,
+    marginTop: 10,
+  },
+ buttonText: {
+    color: 'white',
+    fontWeight: 'bold',
+    fontSize: 16,
+    textAlign: 'center',
   },
 });
